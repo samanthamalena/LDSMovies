@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using LDSMovie.Models;
+using LDSMovies.Models;
 
 namespace LDSMovies.Models
 {
@@ -14,6 +14,6 @@ namespace LDSMovies.Models
         {
         }
 
-        public DbSet<LDSMovie.Models.Movie> Movie { get; set; }
+        public DbSet<LDSMovies.Models.Movie> Movie { get; set; }
     }
 }
